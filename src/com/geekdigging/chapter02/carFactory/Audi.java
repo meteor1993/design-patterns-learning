@@ -1,4 +1,4 @@
-package com.geekdigging.chapter02.factory;
+package com.geekdigging.chapter02.carFactory;
 
 public class Audi implements Car {
     @Override
