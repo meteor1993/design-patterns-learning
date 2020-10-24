@@ -22,7 +22,12 @@ public abstract class AbstractCook {
     public abstract void zhuangpan();
 
     /**
-     * 动起来
+     * 开始做菜，在抽象类里直接定义执行过程
      */
-    public abstract void cook();
+    public void cook(){
+        this.xicai();
+        this.qiecai();
+        this.qiguoshaoyou();
+        this.zhuangpan();
+    }
 }

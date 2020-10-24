@@ -13,19 +13,12 @@ public class TomatoEggs extends AbstractCook {
 
     @Override
     public void qiguoshaoyou() {
-        System.out.println("现在开始起锅烧油");
+        System.out.println("现在开始起锅烧油做番茄炒蛋");
     }
 
     @Override
     public void zhuangpan() {
-        System.out.println("菜烧好以后装盘");
+        System.out.println("番茄炒蛋烧好以后装盘");
     }
 
-    @Override
-    public void cook() {
-        this.xicai();
-        this.qiecai();
-        this.qiguoshaoyou();
-        this.zhuangpan();
-    }
 }
