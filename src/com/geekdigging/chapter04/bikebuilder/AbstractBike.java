@@ -1,4 +1,4 @@
-package com.geekdigging.chapter04.builder;
+package com.geekdigging.chapter04.bikebuilder;
 
 import java.util.ArrayList;
 
