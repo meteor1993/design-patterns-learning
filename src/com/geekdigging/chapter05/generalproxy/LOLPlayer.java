@@ -1,21 +1,15 @@
-package com.geekdigging.chapter05.lolproxy;
+package com.geekdigging.chapter05.generalproxy;
 
-/**
- * Created with IntelliJ IDEA.
- *
- * 游戏者
- *
- * @Date: 2020/10/27
- * @Time: 23:32
- * @email: inwsy@hotmail.com
- * Description:
- */
 public class LOLPlayer implements ILOLPlayer {
 
-    private String name = "";
+    private String name;
 
-    public LOLPlayer(String name) {
-        this.name = name;
+    public LOLPlayer(ILOLPlayer ilolPlayer, String name) throws Exception {
+        if (ilolPlayer == null) {
+            throw new Exception("不能创建真实的角色");
+        } else {
+            this.name = name;
+        }
     }
 
     @Override

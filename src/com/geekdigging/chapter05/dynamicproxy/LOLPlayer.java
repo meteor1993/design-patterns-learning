@@ -1,18 +1,8 @@
-package com.geekdigging.chapter05.lolproxy;
+package com.geekdigging.chapter05.dynamicproxy;
 
-/**
- * Created with IntelliJ IDEA.
- *
- * 游戏者
- *
- * @Date: 2020/10/27
- * @Time: 23:32
- * @email: inwsy@hotmail.com
- * Description:
- */
 public class LOLPlayer implements ILOLPlayer {
 
-    private String name = "";
+    private String name;
 
     public LOLPlayer(String name) {
         this.name = name;
