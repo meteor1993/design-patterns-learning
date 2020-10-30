@@ -5,8 +5,6 @@ import java.lang.reflect.Method;
 
 public class LOLPlayIH implements InvocationHandler {
 
-    Class clazz;
-
     Object object;
 
     public LOLPlayIH(Object object) {

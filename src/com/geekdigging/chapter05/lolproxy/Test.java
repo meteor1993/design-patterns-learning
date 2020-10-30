@@ -2,9 +2,9 @@ package com.geekdigging.chapter05.lolproxy;
 
 public class Test {
     public static void main(String[] args) {
-        LOLPlayer lolPlayer = new LOLPlayer("张三");
+        LOLPlayer lolPlayer = new LOLPlayer("geekdigging");
         LOLPlayerProxy proxy = new LOLPlayerProxy(lolPlayer);
-        proxy.login("zhangsan", "password");
+        proxy.login("geekdigging", "password");
         proxy.pentaKill();
         proxy.victory();
     }
