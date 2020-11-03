@@ -9,10 +9,11 @@ package com.geekdigging.chapter07.mediator;
  * Description:
  */
 public abstract class Mediator {
-
+    // 定义同事类
     protected ConcreteColleague1 colleague1;
     protected ConcreteColleague2 colleague2;
 
+    // 通过 get/set 将同事注入进来
     public ConcreteColleague1 getC1() {
         return colleague1;
     }
@@ -29,6 +30,7 @@ public abstract class Mediator {
         this.colleague2 = colleague2;
     }
 
+    // 中介者模式的业务逻辑
     public abstract void doSomething1();
     public abstract void doSomething2();
 }

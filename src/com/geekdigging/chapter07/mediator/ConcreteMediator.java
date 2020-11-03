@@ -11,6 +11,7 @@ package com.geekdigging.chapter07.mediator;
 public class ConcreteMediator extends Mediator {
     @Override
     public void doSomething1() {
+        // 调用同事类的方法
         super.colleague1.selfMethod1();
         super.colleague2.selfMethod2();
     }
