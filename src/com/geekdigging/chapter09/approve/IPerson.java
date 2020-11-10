@@ -9,7 +9,7 @@ package com.geekdigging.chapter09.approve;
  * Description:
  */
 public interface IPerson {
-    // 获取当前权限级别
+    // 获取当前请假天数
     int getDays();
     // 获取审批结果
     String getResult();
