@@ -14,7 +14,7 @@ public abstract class Handler {
     private int days;
     // 责任传递，定义下一个责任人
     private Handler nextHandler;
-    // 所有的类都需要定义自己的处理级别
+    // 所有的类都需要定义自己的能处理的请假天数
     public Handler(int days) {
         this.days = days;
     }
