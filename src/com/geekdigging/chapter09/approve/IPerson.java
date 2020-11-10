@@ -10,7 +10,7 @@ package com.geekdigging.chapter09.approve;
  */
 public interface IPerson {
     // 获取当前权限级别
-    int getLevel();
+    int getDays();
     // 获取审批结果
     String getResult();
 }

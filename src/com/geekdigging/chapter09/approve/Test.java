@@ -18,7 +18,7 @@ public class Test {
 
         ArrayList<IPerson> personList = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            personList.add(new Person(random.nextInt(4), "领导，我想请假"));
+            personList.add(new Person(random.nextInt(30)));
         }
 
         Handler leader1 = new Leader1();

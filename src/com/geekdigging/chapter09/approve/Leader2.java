@@ -10,12 +10,12 @@ package com.geekdigging.chapter09.approve;
  */
 public class Leader2 extends Handler {
     public Leader2() {
-        super(Handler.LEADER_LEVEL_2);
+        super(Handler.MIDDLE);
     }
 
     @Override
     protected void response(IPerson person) {
-        System.out.println("-----------向领导2请示------------");
+        System.out.println("-----------向大组长请示------------");
         System.out.println(person.getResult());
         System.out.println("-----------请示通过---------------");
     }

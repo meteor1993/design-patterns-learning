@@ -10,30 +10,17 @@ package com.geekdigging.chapter09.approve;
  */
 public class Person implements IPerson {
 
-    private int level;
+    private int days;
     private String message;
 
-    public Person(int level, String message) {
-        this.level = level;
-        switch (level) {
-            case 1:
-                this.message = "员工1的请求是：" + message;
-                break;
-            case 2 :
-                this.message = "员工2的请求是：" + message;
-                break;
-            case 3 :
-                this.message = "员工3的请求是：" + message;
-                break;
-            case 4 :
-                this.message = "员工4的请求是：" + message;
-                break;
-        }
+    public Person(int days) {
+        this.days = days;
+        this.message = "领导，我想请 " + days + " 天假！！！";
     }
 
     @Override
-    public int getLevel() {
-        return this.level;
+    public int getDays() {
+        return this.days;
     }
 
     @Override
