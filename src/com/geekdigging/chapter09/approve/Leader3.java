@@ -9,6 +9,7 @@ package com.geekdigging.chapter09.approve;
  * Description:
  */
 public class Leader3 extends Handler {
+    // 部门经理
     public Leader3() {
         super(Handler.MAX);
     }

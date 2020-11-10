@@ -1,9 +1,5 @@
 package com.geekdigging.chapter09.approve;
 
-import com.geekdigging.chapter09.chain.Level;
-import com.geekdigging.chapter09.chain.Request;
-import com.geekdigging.chapter09.chain.Response;
-
 public abstract class Handler {
 
     public final static int MIN = 3;
