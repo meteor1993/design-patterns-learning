@@ -1,9 +1,9 @@
 package com.geekdigging.chapter10.dress;
 
-public abstract class ClothesDecorator extends Person {
+public abstract class Clothes extends Person {
     private Person person;
 
-    public ClothesDecorator(Person person) {
+    public Clothes(Person person) {
         this.person = person;
     }
 
