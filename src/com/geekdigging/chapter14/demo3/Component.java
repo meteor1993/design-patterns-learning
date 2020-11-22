@@ -3,7 +3,7 @@ package com.geekdigging.chapter14.demo3;
 import java.util.Collection;
 
 /**
- * 安全模式
+ * 透明模式
  */
 public abstract class Component {
     // 输出组件名称

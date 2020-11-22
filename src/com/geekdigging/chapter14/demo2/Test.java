@@ -4,14 +4,15 @@ public class Test {
     public static void main(String[] args) {
         // 定义根节点
         Composite root = new Composite("服装");
+        // 创建两个树枝节点
         Composite c1 = new Composite("男装");
         Composite c2 = new Composite("女装");
 
         // 定义所有的叶子对象
-        Component leaf1 = new Leaf("衬衣");
-        Component leaf2 = new Leaf("夹克");
-        Component leaf3 = new Leaf("裙子");
-        Component leaf4 = new Leaf("套装");
+        Leaf leaf1 = new Leaf("衬衣");
+        Leaf leaf2 = new Leaf("夹克");
+        Leaf leaf3 = new Leaf("裙子");
+        Leaf leaf4 = new Leaf("套装");
 
         // 按照树的结构来组合组合对象和叶子对象
         root.addChild(c1);
